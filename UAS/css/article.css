@@ -1,0 +1,137 @@
+
+body {
+  background-color: #eff2f5;
+  line-height: 28px;
+  font-size: 20x;
+  font-style: normal;
+  color: #7d7d7d; }
+
+h4 {
+  color: #4d4d4d;
+  font-weight: bold;
+  margin-top: 0; }
+
+
+a {
+  color: inherit;
+  display: inline-block;
+  line-height: inherit;
+  text-decoration: none; }
+
+
+
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0; }
+
+
+
+.mt-20 {
+  margin-top: 20px; }
+
+.mb-60 {
+  margin-bottom: 60px; }
+
+.mb-30 {
+  margin-bottom: 30px; }
+
+
+.hal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 60px; }
+
+.hal ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+.hal ul li {
+  margin: 0 4px; }
+
+.hal ul li a {
+  display: block;
+  font-size: 14px;
+  caption-side: #7d7d7d;
+  width: 26px;
+  text-align: center;
+  line-height: 26px;
+  height: 26px;
+  border-radius: 3px; }
+
+.hal ul li a:hover {
+  color: inherit; }
+
+.hal ul li.active a {
+  background-color: #dae0e8; }
+ 
+.blog-wrapper {
+  padding: 30px;
+  background-color:rgb(245, 248, 245); 
+  width: 80%;
+  height: 100%; 
+  margin: auto;}
+  
+  .fix {
+    overflow: hidden; }
+
+.single-blog .blog-title {
+  display: block;
+  position: relative;
+  font-size: 20px;
+  line-height: 14px;
+  text-transform: capitalize;
+  margin-bottom: 20px; }
+
+.single-blog .blog-post {
+  margin-bottom: 30px;
+  margin-left: 30px; }
+
+  .single-blog .blog-post:last-child {
+    margin-bottom: 0; }
+  
+.single-blog .blog-post .image {
+     display: block;
+    float: left;
+    width: 30%;
+    margin-right: 15px;}
+    
+  .single-blog .blog-post .image img {
+    width: 100%;}
+
+
+  .single-blog .blog-post .content .date {
+    display: block;
+    font-size: 13px;
+    color: green;
+    margin-top: 20px;
+    line-height: 14px; }
+
+  .single-blog .blog-post .content .title {
+    display: block;
+    font-size: 100%;
+    color: #4d4d4d; }
+
+    .single-blog .blog-post .content .title:hover {
+      color: #83a931; }
+
+      .single-blog .blog-post .content p {
+        font-size: 15px;
+        line-height: 20px; }
+    
+        .single-blog .blog-post .content a.read-more {
+          font-size: 14px;
+          font-style: italic;
+          line-height: 12px;
+          padding-bottom: 3px;
+          color: #83a931; }
+          
+          .single-blog .blog-post  .content a.read-more:hover {
+            color: #4d4d4d;
+            border-color: #4d4d4d; }
+    
